@@ -74,6 +74,10 @@ footer {
     flex-direction: column !important;
     align-items: flex-start !important;
   }
+  nav ul {
+    width: 100%;
+    justify-content: flex-start !important;
+  }
   .col-md-5.text-center {
     margin-top: 2em;
   }
@@ -96,4 +100,9 @@ footer {
   height: 250px;
   margin: 0;
   padding: 0;
+}
+
+form .form-control::placeholder {
+  color: #b0b0b0 !important;
+  opacity: 1 !important;
 } 
